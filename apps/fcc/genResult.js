@@ -17,6 +17,7 @@ window.onload = function(){
     if (!this.isNaN(dist) && !this.isNaN(fuel)){
         if (dist >= 0 && fuel > 0){
             let cost = dist / fuel;
+            this.Math.round(cost * 100) / 100;
             result = "[給油記録]：" + dist + "km走行し、" +  fuel + "L給油しました。燃費" + cost + "km/L\n";
         }
     }
