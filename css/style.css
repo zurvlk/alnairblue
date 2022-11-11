@@ -65,7 +65,7 @@ body {
 	background-color: rgba(255, 255, 255, 0.15);
 }
 .twitter_icon {
-	background-image: url("../icon.jpg");
+	background-image: url("../icon.png");
 	width: 240px;       /* ※縦横を同値に */
 	height: 240px;       /* ※縦横を同値に */
 	border-radius: 50%;  /* 角丸半径を50%にする(=円形にする) */
@@ -84,15 +84,15 @@ body {
 	letter-spacing: 1px;
 	font-size: 2.0rem;
 }
-.site-title-sub::before, .site-title-sub::after {
+/* .site-title-sub::before, .site-title-sub::after {
 	content: '';
 	display: inline-block;
-	width: 140px;
+	width: 100px;
 	height: 2px;
 	margin: 0 30px;
 	background-color: #fff;
 	vertical-align: middle;
-}
+} */
 .site-title {
 	margin: 50px 0 40px;
 	font-size: 5.0rem;
