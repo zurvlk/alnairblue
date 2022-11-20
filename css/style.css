@@ -113,7 +113,7 @@ body {
  * header
  * -------------------------------- */
 .header {
-	padding: 170px 30px 80px;
+	padding: 80px 30px;
 }
 .site-title-sub {
 	margin: 0 0 30px;
@@ -130,7 +130,7 @@ body {
 	vertical-align: middle;
 } */
 .site-title {
-	margin: 50px 0 40px;
+	margin: 50px 0;
 	font-size: 5.0rem;
 }
 .site-description {
